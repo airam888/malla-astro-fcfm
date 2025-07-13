@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+#contenedor-cursos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.curso {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 12px;
+  width: 240px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.curso.aprobado {
+  border-color: #4caf50;
+  background-color: #e8f5e9;
+}
+
+.curso.pendiente {
+  border-color: #ff9800;
+  background-color: #fff3e0;
+}
+
+.curso h3 {
+  margin: 0 0 6px;
+}
+
+.curso small {
+  color: #555;
+}
