@@ -1,0 +1,390 @@
+[
+  {
+    "codigo": "MA1001",
+    "nombre": "Introducción al Cálculo",
+    "creditos": 6,
+    "semestre": 1,
+    "requisitos": [],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "MA1101",
+    "nombre": "Introducción al Álgebra",
+    "creditos": 6,
+    "semestre": 1,
+    "requisitos": [],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "FI1000",
+    "nombre": "Introducción a la Física Clásica",
+    "creditos": 6,
+    "semestre": 1,
+    "requisitos": [],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "CC1000",
+    "nombre": "Herramientas Computacionales para Ingeniería y Ciencias",
+    "creditos": 3,
+    "semestre": 1,
+    "requisitos": [],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "BT1211",
+    "nombre": "Aplicaciones de la Biología a la Ingeniería y Ciencias",
+    "creditos": 3,
+    "semestre": 1,
+    "requisitos": [],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "CD1100",
+    "nombre": "Desafíos de Innovación en Ingeniería y Ciencias",
+    "creditos": 6,
+    "semestre": 1,
+    "requisitos": [],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "MA1002",
+    "nombre": "Cálculo Diferencial e Integral",
+    "creditos": 6,
+    "semestre": 2,
+    "requisitos": [
+      "MA1001"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "MA1102",
+    "nombre": "Álgebra Lineal",
+    "creditos": 6,
+    "semestre": 2,
+    "requisitos": [
+      "MA1101"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "FI1100",
+    "nombre": "Introducción a la Física Moderna",
+    "creditos": 6,
+    "semestre": 2,
+    "requisitos": [
+      "FI1000",
+      "MA1001"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "CC1002",
+    "nombre": "Introducción a la Programación",
+    "creditos": 6,
+    "semestre": 2,
+    "requisitos": [],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "CD1201",
+    "nombre": "Proyecto de Innovación en Ingeniería y Ciencias",
+    "creditos": 3,
+    "semestre": 2,
+    "requisitos": [
+      "CD1100"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "IQ2211",
+    "nombre": "Química",
+    "creditos": 6,
+    "semestre": 2,
+    "requisitos": [],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "MA2001",
+    "nombre": "Cálculo en Varias Variables",
+    "creditos": 6,
+    "semestre": 3,
+    "requisitos": [
+      "MA1002",
+      "MA1102"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "MA2601",
+    "nombre": "Ecuaciones Diferenciales Ordinarias",
+    "creditos": 6,
+    "semestre": 3,
+    "requisitos": [
+      "MA1002",
+      "MA1102"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "FI2001",
+    "nombre": "Mecánica",
+    "creditos": 6,
+    "semestre": 3,
+    "requisitos": [
+      "FI1100",
+      "MA1102",
+      "MA1002"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "FI2003",
+    "nombre": "Métodos Experimentales",
+    "creditos": 6,
+    "semestre": 3,
+    "requisitos": [
+      "FI1100",
+      "MA1002"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "CD2201",
+    "nombre": "Módulo Interdisciplinario",
+    "creditos": 3,
+    "semestre": 3,
+    "requisitos": [
+      "CD1201"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "MA2602",
+    "nombre": "Cálculo Avanzado y Aplicaciones",
+    "creditos": 6,
+    "semestre": 4,
+    "requisitos": [
+      "MA2001",
+      "MA2601"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "IN2201",
+    "nombre": "Economía",
+    "creditos": 6,
+    "semestre": 4,
+    "requisitos": [
+      "MA2001"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "FI2002",
+    "nombre": "Electromagnetismo",
+    "creditos": 6,
+    "semestre": 4,
+    "requisitos": [
+      "MA2001",
+      "MA2601",
+      "FI2001"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "FI2004/Q2212",
+    "nombre": "Termodinámica / Termodinámica Química",
+    "creditos": 6,
+    "semestre": 4,
+    "requisitos": [
+      "IQ2211",
+      "FI2001",
+      "MA2001"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "MA3403",
+    "nombre": "Probabilidades y Estadística",
+    "creditos": 6,
+    "semestre": 5,
+    "requisitos": [
+      "MA2001"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "FI3001",
+    "nombre": "Vibraciones y Ondas",
+    "creditos": 6,
+    "semestre": 5,
+    "requisitos": [
+      "MA2602",
+      "FI2002"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "FI3002",
+    "nombre": "Métodos Matemáticos de la Física",
+    "creditos": 6,
+    "semestre": 5,
+    "requisitos": [
+      "MA2602",
+      "FI2002"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "FI3104",
+    "nombre": "Métodos Numéricos para Ciencias e Ingeniería",
+    "creditos": 6,
+    "semestre": 5,
+    "requisitos": [
+      "MA2602",
+      "FI2002",
+      "CC1002"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "FI3111",
+    "nombre": "Mecánica Clásica",
+    "creditos": 6,
+    "semestre": 6,
+    "requisitos": [
+      "FI3001"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "FI3102",
+    "nombre": "Física Moderna",
+    "creditos": 6,
+    "semestre": 6,
+    "requisitos": [
+      "FI3001",
+      "MA3403"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "FI3105",
+    "nombre": "Electrodinámica",
+    "creditos": 6,
+    "semestre": 6,
+    "requisitos": [
+      "FI3001",
+      "FI3002"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "AS3101",
+    "nombre": "Astrofísica de Estrellas",
+    "creditos": 6,
+    "semestre": 6,
+    "requisitos": [
+      "FI2004/Q2212"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "FI4001",
+    "nombre": "Mecánica Cuántica",
+    "creditos": 9,
+    "semestre": 7,
+    "requisitos": [
+      "FI3002",
+      "FI3102",
+      "FI3111"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "AS4101",
+    "nombre": "Astrofísica de Galaxias",
+    "creditos": 6,
+    "semestre": 7,
+    "requisitos": [
+      "AS3101"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "AS4501",
+    "nombre": "Astroinformática",
+    "creditos": 6,
+    "semestre": 7,
+    "requisitos": [
+      "MA3403",
+      "FI3104"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "Electivo1",
+    "nombre": "Electivo",
+    "creditos": 6,
+    "semestre": 7,
+    "requisitos": [],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "FI4104",
+    "nombre": "Mecánica Estadística",
+    "creditos": 9,
+    "semestre": 8,
+    "requisitos": [
+      "FI4001"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "AS4103",
+    "nombre": "Proyecto Astronómico de Investigación",
+    "creditos": 6,
+    "semestre": 8,
+    "requisitos": [
+      "AS4501",
+      "AS4101"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "Electivo2",
+    "nombre": "Electivo",
+    "creditos": 6,
+    "semestre": 8,
+    "requisitos": [],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "Electivo3",
+    "nombre": "Electivo",
+    "creditos": 6,
+    "semestre": 8,
+    "requisitos": [],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "AS4901",
+    "nombre": "Trabajo Tutorial Básico",
+    "creditos": 7,
+    "semestre": 8,
+    "requisitos": [
+      "AS3101",
+      "AS3201"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "codigo": "EI090",
+    "nombre": "Examen de Suficiencia en Inglés I",
+    "creditos": 0,
+    "semestre": 8,
+    "requisitos": [],
+    "estado": "pendiente"
+  }
+]
